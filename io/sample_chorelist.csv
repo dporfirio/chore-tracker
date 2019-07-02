@@ -1,0 +1,34 @@
+id,category
+clean floors,living room
+clean floors,bathroom
+clean floors,hallway
+clean floors,kitchen
+clean floors,dining area
+clean floors,bedroom
+declutter,living room
+declutter,bathroom
+declutter,hallway
+declutter,kitchen
+declutter,dining area
+declutter,bedroom
+dust,living room
+dust,bathroom
+dust,hallway
+dust,kitchen
+dust,dining area
+dust,bedroom
+dishes,daily
+put coffee on for tomorrow,daily
+take out trash,kitchen
+take out recycling,kitchen
+clean kitchen counters,kitchen
+clean fridge,kitchen
+clean coffee maker,dining area
+wash towels,all
+clean stove,kitchen
+clean toilet,bathroom
+clean bathtub,bathroom
+clean bathtub drain stop,bathroom
+clean bathroom sink,bathroom
+wash sheets,bedroom
+get mail,misc
