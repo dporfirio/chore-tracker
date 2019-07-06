@@ -2,6 +2,8 @@
 
 For all of your chore-tracking needs. Currently maintains a category of chores to be completed, and the set of chores corresponding to that category. This code is intended to be run on a Raspberry Pi with an 800x480 touch screen.
 
+## Change Log
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
