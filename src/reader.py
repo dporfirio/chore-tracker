@@ -3,6 +3,7 @@ Author: David Porfirio
 '''
 
 import csv
+from chore import *
 
 class Reader:
 
@@ -28,7 +29,7 @@ class Reader:
             for row in csv_reader:
                 if rowcount > 0:
                     row_cat = row[1]
-                    row_chore = row[0]
+                    row_chore = Chore(row[0], row[2])
 
                     if row_cat not in chores:
                         chores[row_cat] = []
