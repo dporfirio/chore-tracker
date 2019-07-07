@@ -30,9 +30,15 @@ class Tracker:
             objects
         '''
 
-        old_day = datetime.datetime.now().day
+        old_day = datetime.datetime.now().minute
         while True:
             time.sleep(5)
-            now_day = datetime.datetime.now().day
+            now_day = datetime.datetime.now().minute
             is_new_day = (now_day != old_day)
             old_day = now_day
+
+            # handle the possibility of being a new day
+            if is_new_day:
+                for cat in self.data:
+                    for chore in self.data[cat].chores:
+                        chore.update()
