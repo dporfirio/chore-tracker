@@ -1,18 +1,18 @@
 id,category,icon,cat icon
 clean floors,living room,coffee.png,coffee.png
-clean floors,bathroom,coffee.png,coffee.png
+clean floors,bathroom,bathroom.png,bathroom.png
 clean floors,hallway,coffee.png,coffee.png
 clean floors,kitchen,coffee.png,coffee.png
 clean floors,dining area,coffee.png,coffee.png
 clean floors,bedroom,coffee.png,coffee.png
 declutter,living room,coffee.png,coffee.png
-declutter,bathroom,coffee.png,coffee.png
+declutter,bathroom,bathroom.png,bathroom.png
 declutter,hallway,coffee.png,coffee.png
 declutter,kitchen,coffee.png,coffee.png
 declutter,dining area,coffee.png,coffee.png
 declutter,bedroom,coffee.png,coffee.png
 dust,living room,coffee.png,coffee.png
-dust,bathroom,coffee.png,coffee.png
+dust,bathroom,bathroom.png,bathroom.png
 dust,hallway,coffee.png,coffee.png
 dust,kitchen,coffee.png,coffee.png
 dust,dining area,coffee.png,coffee.png
@@ -26,9 +26,9 @@ clean fridge,kitchen,coffee.png,coffee.png
 clean coffee maker,dining area,coffee.png,coffee.png
 wash towels,all,coffee.png,coffee.png
 clean stove,kitchen,coffee.png,coffee.png
-clean toilet,bathroom,coffee.png,coffee.png
-clean bathtub,bathroom,coffee.png,coffee.png
-clean bathtub drain stop,bathroom,coffee.png,coffee.png
-clean bathroom sink,bathroom,coffee.png,coffee.png
+clean toilet,bathroom,bathroom.png,bathroom.png
+clean bathtub,bathroom,bathroom.png,bathroom.png
+clean bathtub drain stop,bathroom,bathroom.png,bathroom.png
+clean bathroom sink,bathroom,bathroom.png,bathroom.png
 wash sheets,bedroom,coffee.png,coffee.png
 get mail,misc,coffee.png,coffee.png
