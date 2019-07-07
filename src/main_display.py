@@ -18,7 +18,7 @@ class MainDisplay(QLabel):
         super(MainDisplay, self).__init__(parent=parent)
         self.tracker = tracker
         chores = self.tracker.data
-        categories = chores.keys()
+        categories = chores.values()
         self.setGeometry(50, 20, 700, 400)
         self.cat_screen = CategoriesScreen(categories, self)
         self.initialize_chore_screens()
@@ -45,6 +45,6 @@ class MainDisplay(QLabel):
             screen currently being displayed
         '''
 
-        self.chore_screens[self.cat_screen.curr_active.text()].hide()
-        self.chore_screens[btn.text()].show()
+        self.chore_screens[self.cat_screen.button2category[self.cat_screen.curr_active].name].hide()
+        self.chore_screens[self.cat_screen.button2category[btn].name].show()
         self.cat_screen.curr_active = btn

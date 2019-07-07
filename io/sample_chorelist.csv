@@ -1,34 +1,34 @@
-id,category,icon
-clean floors,living room,coffee.png
-clean floors,bathroom,coffee.png
-clean floors,hallway,coffee.png
-clean floors,kitchen,coffee.png
-clean floors,dining area,coffee.png
-clean floors,bedroom,coffee.png
-declutter,living room,coffee.png
-declutter,bathroom,coffee.png
-declutter,hallway,coffee.png
-declutter,kitchen,coffee.png
-declutter,dining area,coffee.png
-declutter,bedroom,coffee.png
-dust,living room,coffee.png
-dust,bathroom,coffee.png
-dust,hallway,coffee.png
-dust,kitchen,coffee.png
-dust,dining area,coffee.png
-dust,bedroom,coffee.png
-dishes,daily,coffee.png
-put coffee on for tomorrow,daily,coffee.png
-take out trash,kitchen,coffee.png
-take out recycling,kitchen,coffee.png
-clean kitchen counters,kitchen,coffee.png
-clean fridge,kitchen,coffee.png
-clean coffee maker,dining area,coffee.png
-wash towels,all,coffee.png
-clean stove,kitchen,coffee.png
-clean toilet,bathroom,coffee.png
-clean bathtub,bathroom,coffee.png
-clean bathtub drain stop,bathroom,coffee.png
-clean bathroom sink,bathroom,coffee.png
-wash sheets,bedroom,coffee.png
-get mail,misc,coffee.png
+id,category,icon,cat icon
+clean floors,living room,coffee.png,coffee.png
+clean floors,bathroom,coffee.png,coffee.png
+clean floors,hallway,coffee.png,coffee.png
+clean floors,kitchen,coffee.png,coffee.png
+clean floors,dining area,coffee.png,coffee.png
+clean floors,bedroom,coffee.png,coffee.png
+declutter,living room,coffee.png,coffee.png
+declutter,bathroom,coffee.png,coffee.png
+declutter,hallway,coffee.png,coffee.png
+declutter,kitchen,coffee.png,coffee.png
+declutter,dining area,coffee.png,coffee.png
+declutter,bedroom,coffee.png,coffee.png
+dust,living room,coffee.png,coffee.png
+dust,bathroom,coffee.png,coffee.png
+dust,hallway,coffee.png,coffee.png
+dust,kitchen,coffee.png,coffee.png
+dust,dining area,coffee.png,coffee.png
+dust,bedroom,coffee.png,coffee.png
+dishes,daily,coffee.png,coffee.png
+put coffee on for tomorrow,daily,coffee.png,coffee.png
+take out trash,kitchen,coffee.png,coffee.png
+take out recycling,kitchen,coffee.png,coffee.png
+clean kitchen counters,kitchen,coffee.png,coffee.png
+clean fridge,kitchen,coffee.png,coffee.png
+clean coffee maker,dining area,coffee.png,coffee.png
+wash towels,all,coffee.png,coffee.png
+clean stove,kitchen,coffee.png,coffee.png
+clean toilet,bathroom,coffee.png,coffee.png
+clean bathtub,bathroom,coffee.png,coffee.png
+clean bathtub drain stop,bathroom,coffee.png,coffee.png
+clean bathroom sink,bathroom,coffee.png,coffee.png
+wash sheets,bedroom,coffee.png,coffee.png
+get mail,misc,coffee.png,coffee.png

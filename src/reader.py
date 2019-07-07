@@ -4,6 +4,7 @@ Author: David Porfirio
 
 import csv
 from chore import *
+from category import *
 
 class Reader:
 
@@ -22,7 +23,7 @@ class Reader:
         Purpose: Read the chore data from a CSV file
         '''
 
-        chores = {}
+        categories = {}
         with open(filename, "r") as infile:
             csv_reader = csv.reader(infile, delimiter=',')
             rowcount = 0
@@ -31,9 +32,9 @@ class Reader:
                     row_cat = row[1]
                     row_chore = Chore(row[0], row[2])
 
-                    if row_cat not in chores:
-                        chores[row_cat] = []
-                    chores[row_cat].append(row_chore)
+                    if row_cat not in categories:
+                        categories[row_cat] = Category(row_cat,row[3])
+                    categories[row_cat].chores.append(row_chore)
 
                 rowcount += 1
-        return chores
+        return categories
