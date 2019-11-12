@@ -19,7 +19,7 @@ class MainDisplay(QLabel):
         self.tracker = tracker
         chores = self.tracker.data
         categories = chores.values()
-        self.setGeometry(50, 20, 700, 400)
+        self.setGeometry(0, 20, 800, 400)
         self.cat_screen = CategoriesScreen(categories, self)
         self.initialize_chore_screens()
         self.display_chores(self.cat_screen.curr_active)

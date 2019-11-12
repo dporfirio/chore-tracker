@@ -17,7 +17,7 @@ class ChoreScreen(QLabel):
         super(ChoreScreen, self).__init__(parent=parent)
         self.chore_list = category.chores
 
-        self.setGeometry(0, 120, 700, 200)
+        self.setGeometry(50, 120, 700, 200)
 
         chore_counter = 0
         for i in range(3):
