@@ -10,34 +10,35 @@ from tracker import *
 
 class App(QMainWindow):
 
-    '''
-    Class: App
-    Purpose: Contains the highest level window components, and maintains
-        the window.
-    '''
+	'''
+	Class: App
+	Purpose: Contains the highest level window components, and maintains
+		the window.
+	'''
 
-    def __init__(self):
-        super(App, self).__init__()
-        self.title = 'Chore Tracker'
-        self.width, self.height = 800,480
-        data_filename = sys.argv[1]
-        self.tracker = Tracker(data_filename)
-        self.init_ui()
-        self.show()
+	def __init__(self):
+		super(App, self).__init__()
+		self.title = 'Chore Tracker'
+		self.width, self.height = 800,480
+		self.setStyleSheet(" QMainWindow { background-color: #1D3557; }")
+		data_filename = sys.argv[1]
+		self.tracker = Tracker(data_filename)
+		self.init_ui()
+		self.show()
 
-    def init_ui(self):
+	def init_ui(self):
 
-        '''
-        Method: init_ui
-        Purpose: Initialize components within the main window
-        '''
-        self.setWindowTitle(self.title)
-        self.setGeometry(0, 0, self.width, self.height)
-        main_display = MainDisplay(self.tracker, self)
+		'''
+		Method: init_ui
+		Purpose: Initialize components within the main window
+		'''
+		self.setWindowTitle(self.title)
+		self.setGeometry(0, 0, self.width, self.height)
+		main_display = MainDisplay(self.tracker, self)
 
 if __name__ == "__main__":
 
-    # start the GUI
-    app = QApplication(sys.argv)
-    ex = App()
-    sys.exit(app.exec_())
+	# start the GUI
+	app = QApplication(sys.argv)
+	ex = App()
+	sys.exit(app.exec_())

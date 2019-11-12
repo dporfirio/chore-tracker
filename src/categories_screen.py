@@ -16,7 +16,7 @@ class CategoriesScreen(QWidget):
 	def __init__(self, categories, parent):
 		super(CategoriesScreen, self).__init__(parent=parent)
 
-		self.setGeometry(0,0,800,100)
+		self.setGeometry(4,0,800,100)
 		layout = QHBoxLayout()
 		layout.setSpacing(0)
 
@@ -26,7 +26,9 @@ class CategoriesScreen(QWidget):
 		for cat in categories:
 			button = QPushButton()
 			button.setFixedSize(800*1.0/len(categories)-4, 100)
-			button.setStyleSheet("QPushButton { background-color: white }")
+			button.setStyleSheet("QPushButton { background-color: #457B9D; }"
+								 "QPushButton:checked { background-color: #357B9D; }"
+								 "QPushButton:pressed { background-color: #357B9D; }")
 			icon  = QIcon("img/{}".format(cat.img))
 			button.setIcon(icon);
 			button.setIconSize(QSize(30,30))
